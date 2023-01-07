@@ -1,10 +1,10 @@
 * {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   margin: 0;
   padding: 0;
 }
 .banner-section {
-  background-image: url("/images/banner/banner2.png");
+  background-image: url("./images/banner/banner2.png");
   background-repeat: no-repeat;
   display: flex;
   background-size: 100%;
@@ -13,7 +13,7 @@
 .banner-container {
   width: 500px;
   text-align: right;
-  margin: 200px 200px;
+  margin: 200px 230px;
 }
 .banner-title {
   font-weight: 900;
@@ -51,7 +51,7 @@ li {
   font-size: 16px;
 }
 i {
-  color: #d63384;
+  color: #ff0000;
   margin-right: 10px;
 }
 .about-section .title {
@@ -75,6 +75,50 @@ i {
   gap: 200px;
   text-align: center;
 }
+.expertise-section {
+  margin: 50px 0;
+}
+.expertise {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.expertise-item {
+  text-align: center;
+  width: 300px;
+  padding: 24px;
+  border: 1px solid;
+  border-color: #00000010;
+  box-shadow: 5px 5px 20px 20px #00000006;
+  border-radius: 5px;
+}
+.expertise-item i {
+  margin-bottom: 24px;
+}
+.expertise-section .title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.expertise-item .title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.expertise-border {
+  border-bottom: 2px solid red;
+  text-align: center;
+  width: 40px;
+  margin: 15px auto;
+}
+.expertise-item .description {
+  color: #585858;
+  margin: 16px 0;
+}
+.expertise-item .title {
+  margin-bottom: 10px;
+}
 .plan-section .title {
   font-weight: 700;
   font-size: 40px;
@@ -96,7 +140,7 @@ i {
 }
 .mindset {
   display: flex;
-  background-image: url("/images/watch.png");
+  background-image: url("./images/watch.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -150,12 +194,14 @@ footer {
 }
 input {
   margin-bottom: 24px;
-  border: 0;
+  border: 2px solid #ffffff;
   border-radius: 10px;
   width: 100%;
   padding: 18px 30px;
   font-weight: 400;
   font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
 }
 .footer-container .btn {
   background-color: #ffffff;
